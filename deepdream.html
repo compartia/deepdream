@@ -28,9 +28,9 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/logo/styles.css" />
-<link rel="stylesheet" href="../assets/css/zaborskiy.css" /> 
+<link rel="stylesheet" href="../assets/css/zaborskiy.css" />
 
- 
+
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,cyrillic-ext,cyrillic'
 	rel='stylesheet' type='text/css'>
 
@@ -43,8 +43,8 @@
 <link rel="stylesheet/less" type="text/css" href="../assets/less/tutorial.less" />
 <script src="/assets/js/vendor/less.min.js"></script> 
 -->
- 
- 
+
+
 <link rel="stylesheet" href="../assets/css/tutorial.css" />
 
 <!--[if lt IE 9]>
@@ -80,10 +80,10 @@
 	<div class="container tutorial" ng-controller="mainCtrl">
 
 		<h1>
-			GoogLeNet DeepDreams @ OS X <small>step by step guide for girls
-			<small>by <a href="http://www.zaborskiy.org">Artem Zaborskiy</a></small>
+			GoogLeNet DeepDreams @ OS X <small>step by step guide for girls <small>by <a
+					href="http://www.zaborskiy.org">Artem Zaborskiy</a></small>
 			</small>
-			
+
 		</h1>
 		<p>
 			You're reading this because you’ve seen the <a
@@ -93,13 +93,14 @@
 		</p>
 		<p>Initially, I wrote this how-to for myself just to make the life simpler when I move the things to another Mac.
 		</p>
+
 		<p>
 
 			Long story short, our goal is to force <a href="https://github.com/google/deepdream/blob/master/dream.ipynb"
 				target="_blank">that Interactive Python Notebook</a> working.
 		</p>
 		<hr>
-		<p>
+
 		<h3>Preconditions:</h3>
 		<ul>
 			<li>you’re running the OS X Yosemite 10.10.* and</li>
@@ -109,6 +110,10 @@
 			<li>you have at least 4GB of free storage (not a problem nowdays, right?)</li>
 			<li>you’re at least 16 years old female.</li>
 		</ul>
+
+		<p>
+			In case of any <em>discomfiture</em>, drop a line at <span class="az-social-github"></span> <a
+				href="https://github.com/compartia/deepdream/issues">https://github.com/compartia/deepdream/issues</a>
 		</p>
 		<hr>
 
@@ -326,8 +331,21 @@ export DYLD_FALLBACK_LIBRARY_PATH=$HOME/anaconda/lib</pre>
 					<pre class="prettyprint">
 brew install --fresh -vd lmdb 
 brew link lmdb</pre>
+<hr>
 
+					 
+
+
+					<p>
+						If you're experiencing any troubles, please <a href="https://github.com/compartia/deepdream/issues">submit a
+							bug at GitHub</a>, or write a comment bellow. Thanks!
+					</p>
+					<p>
+						<span class="az-social-github"></span> You're very welcome to contribute to <a
+							href="https://github.com/compartia/deepdream">https://github.com/compartia/deepdream</a>
+					</p>
 				</div>
+
 
 				<p>Ok, seems like we're ready to build Caffe:</p>
 				<pre class="prettyprint">
@@ -359,6 +377,8 @@ make runtest</pre>
 				scene <small>in which the the сollective unconscious absorbs the reader</small>
 			</h2>
 
+
+
 			<div class="substep">
 				<p>
 					We need to download the trained model from the <a href="http://caffe.berkeleyvision.org/model_zoo.html"
@@ -389,12 +409,13 @@ ipython notebook dream.ipynb</pre>
 					where you should be able to run the script cell by cell to make your experiments in deepdreams.
 				</p>
 
-				Thanks!
+
+
+
 			</div>
 
-
-
 		</section>
+
 
 		<section>
 			<h2>
@@ -434,7 +455,10 @@ ipython notebook dream.ipynb</pre>
 
 
 
+
 		</section>
+
+
 
 
 		<section>
@@ -443,7 +467,7 @@ ipython notebook dream.ipynb</pre>
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'zaborskiy';
     var disqus_identifier = '/deepdream';
-    var disqus_url = 'http://www.zaborskiy.org/gal/deepdream.html';
+    var disqus_url = 'http://www.zaborskiy.org/deepdream/deepdream.html';
     
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
